@@ -21,7 +21,7 @@ app.use((req, res, next) => {
 app.use(async (req, res) => {
   try {
     const path = req.originalUrl; // path dinamis
-    const url = `https://hotlivezz179266008.akainu.xyz${path}`; // ganti dengan host asli
+    const url = `https://live-vipxlvb.nsnd.live${path}`; // ganti dengan host asli
 
     const headers = {
       Referer: "https://demo.crunchyrolll.xyz/",

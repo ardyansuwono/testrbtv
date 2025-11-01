@@ -2,7 +2,7 @@ const express = require("express");
 const axios = require("axios");
 
 const app = express();
-const port = 3000;
+const port = 8080;
 
 // Middleware CORS (biar bisa diakses dari browser/hls.js)
 app.use((req, res, next) => {
